@@ -1,0 +1,38 @@
+{
+  "name": "resultea",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "keywords": [
+    "resultea",
+    "result",
+    "either",
+    "typescript",
+    "functional",
+    "monad",
+    "error-handling",
+    "safe",
+    "composable"
+  ],
+  "author": "banovic",
+  "license": "MIT",
+  "type": "module",
+  "description": "Simple, type-safe Result type for TypeScript",
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.12"
+  }
+}
